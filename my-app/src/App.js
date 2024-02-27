@@ -24,7 +24,7 @@ function App() {
         <button className="button" type="button" onClick={onButtonClick}>Trigger Function</button>
         {flag &&  (<div>
           <p>This is the message from Azure Function</p>
-          <p>Testing Pull request Environment</p>
+          <p>Testing Branch Environment</p>
           <b>{data}</b>
         </div>)}
       </header>
